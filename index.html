@@ -114,6 +114,39 @@
       padding: .6rem .9rem; font-size: .82rem; color: #f0b95c; margin-top: .8rem; line-height: 1.5;
     }
 
+    .gatekeeper-box {
+      background: #241a0e;
+      border: 2px solid #c98a4b;
+      border-radius: .7rem;
+      padding: 1rem 1.1rem;
+      margin-top: 1rem;
+    }
+
+    .gatekeeper-box .gk-title {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      font-weight: 700;
+      color: #f0b95c;
+      font-size: .95rem;
+      margin-bottom: .5rem;
+    }
+
+    .gatekeeper-box ol {
+      padding-left: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: .35rem;
+    }
+
+    .gatekeeper-box li {
+      font-size: .88rem;
+      color: #f1e9df;
+      line-height: 1.5;
+    }
+
+    .gatekeeper-box strong { color: #f0b95c; }
+
     .features { background: #1e1610; border: 1px solid #2b2117; border-radius: 1rem; padding: 1.8rem 2rem; }
     .features h2 {
       font-size: 1rem; font-weight: 600; color: #8a7a68;
@@ -161,7 +194,17 @@
       <ol>
         <li>Descargá el <strong>.dmg</strong> correspondiente a tu Mac.</li>
         <li>Abrí el archivo y arrastrá la app a Aplicaciones.</li>
-        <li>En el primer inicio, hacé clic derecho → <strong>Abrir</strong> para saltear Gatekeeper.</li>
+      </ol>
+    </div>
+
+    <div class="gatekeeper-box">
+      <div class="gk-title">⚠️ Importante: así se abre la primera vez</div>
+      <ol>
+        <li>NO hagas doble click todavía. Anda a la carpeta Aplicaciones.</li>
+        <li>Hacé <strong>clic derecho</strong> (o Control + clic) sobre el ícono de la app.</li>
+        <li>Elegí <strong>"Abrir"</strong> en el menú.</li>
+        <li>Va a aparecer el mismo aviso, pero ahora con un botón <strong>"Abrir igual"</strong>. Tocálo.</li>
+        <li>Confirmá con tu contraseña o Touch ID. Después se abre normal con doble click, siempre.</li>
       </ol>
     </div>
   </div>
